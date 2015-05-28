@@ -1,8 +1,10 @@
 1.	Scenariul Aplicaţiei
+
       Se doreşte implementarea unei funcţionalităţi care simulează activitatea de contractere a unui credit bancar. Pentru a putea obţine un credit, o persoană trebuie să efectueze o serie de proceduri ce au scopul de a verifica eligibilitatea persoanei. Ȋn cazul în care condiţiile impuse de asigurare a eligibilităţii financiare a contractantului sunt îndeplinite, cererea de acordare a creditului va fi aprobată, iar utilizatorul va intra în posesia creditului.
 
 
 2.	Analiză şi Implementare
+
 Modelul aplicaţiei este reprezentat de entităţile: Credit bancar, Creditor (cel care pune la dispoziţie creditul şi Debitor (cel care pretinde creditul). Pentru implementare s-au utilizat  3 design patternuri, convenabile scenariului ales, şi s-au efectuat o serie de teste unitare pentru a testa corectitudinea metodelor create.
        Un credit bancar defineşte un obiect complex, cu următoarele caracteristici: 
 -	Valoare credit, câmp de tipul “double”
